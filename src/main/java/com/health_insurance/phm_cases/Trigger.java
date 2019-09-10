@@ -16,6 +16,9 @@ public class Trigger implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Domain")
 	private java.lang.String domain;
 
+	@org.kie.api.definition.type.Label(value = "Member")
+	private com.health_insurance.phm_cases.Member member;
+
 	public Trigger() {
 	}
 
@@ -43,11 +46,21 @@ public class Trigger implements java.io.Serializable {
 		this.domain = domain;
 	}
 
+	public com.health_insurance.phm_cases.Member getMember() {
+		return this.member;
+	}
+
+	public void setMember(com.health_insurance.phm_cases.Member member) {
+		this.member = member;
+	}
+
 	public Trigger(java.lang.String id, java.lang.String description,
-			java.lang.String domain) {
+			java.lang.String domain,
+			com.health_insurance.phm_cases.Member member) {
 		this.id = id;
 		this.description = description;
 		this.domain = domain;
+		this.member = member;
 	}
 
 }
