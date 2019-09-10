@@ -38,7 +38,7 @@
     <bpmn2:startEvent id="_34C7E285-4C4D-469C-90D9-E7CB2CDE4500">
       <bpmn2:outgoing>_C46D0C53-BD71-4B4D-813F-A3F8D9D442B1</bpmn2:outgoing>
     </bpmn2:startEvent>
-    <bpmn2:task id="_EF298662-219C-4FF9-BFEA-015BFD2BF582" drools:taskName="REST" name="Member Query">
+    <bpmn2:task id="_EF298662-219C-4FF9-BFEA-015BFD2BF582" drools:taskName="Rest" name="Member Query">
       <bpmn2:documentation id="_aDWrYdQKEem7JshOyZORSQ"><![CDATA[Get the member info.]]></bpmn2:documentation>
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
@@ -84,7 +84,7 @@
       <bpmn2:dataInputAssociation id="_aDWra9QKEem7JshOyZORSQ">
         <bpmn2:targetRef>_EF298662-219C-4FF9-BFEA-015BFD2BF582_TaskNameInputX</bpmn2:targetRef>
         <bpmn2:assignment id="_aDWrbNQKEem7JshOyZORSQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_aDWrbdQKEem7JshOyZORSQ"><![CDATA[REST]]></bpmn2:from>
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_aDWrbdQKEem7JshOyZORSQ"><![CDATA[Rest]]></bpmn2:from>
           <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_aDWrbtQKEem7JshOyZORSQ">_EF298662-219C-4FF9-BFEA-015BFD2BF582_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
