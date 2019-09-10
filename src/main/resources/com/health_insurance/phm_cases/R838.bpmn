@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_s3Uk4NQDEem7JshOyZORSQ" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_HV8_0NQEEem7JshOyZORSQ" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
   <bpmn2:itemDefinition id="_cMemberItem" structureRef="com.health_insurance.phm_cases.Member"/>
   <bpmn2:itemDefinition id="_cTriggerItem" structureRef="com.health_insurance.phm_cases.Trigger"/>
   <bpmn2:itemDefinition id="_pGetMemberUrlItem" structureRef="String"/>
@@ -51,7 +51,7 @@
       <bpmn2:outgoing>_C46D0C53-BD71-4B4D-813F-A3F8D9D442B1</bpmn2:outgoing>
     </bpmn2:startEvent>
     <bpmn2:task id="_EF298662-219C-4FF9-BFEA-015BFD2BF582" drools:taskName="REST" name="Member Query">
-      <bpmn2:documentation id="_s3Uk4dQDEem7JshOyZORSQ"><![CDATA[Get the member info.]]></bpmn2:documentation>
+      <bpmn2:documentation id="_HV8_0dQEEem7JshOyZORSQ"><![CDATA[Get the member info.]]></bpmn2:documentation>
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
           <drools:metaValue><![CDATA[Member Query]]></drools:metaValue>
@@ -59,37 +59,37 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_08FC2EC3-BFC6-4A3E-999B-002073262FD1</bpmn2:incoming>
       <bpmn2:outgoing>_C049BA0B-823B-46FE-A6B4-09572D948BB7</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_s3Uk4tQDEem7JshOyZORSQ">
+      <bpmn2:ioSpecification id="_HV8_0tQEEem7JshOyZORSQ">
         <bpmn2:dataInput id="_EF298662-219C-4FF9-BFEA-015BFD2BF582_MethodInputX" drools:dtype="String" itemSubjectRef="__EF298662-219C-4FF9-BFEA-015BFD2BF582_MethodInputXItem" name="Method"/>
         <bpmn2:dataInput id="_EF298662-219C-4FF9-BFEA-015BFD2BF582_ContentDataInputX" drools:dtype="String" itemSubjectRef="__EF298662-219C-4FF9-BFEA-015BFD2BF582_ContentDataInputXItem" name="ContentData"/>
         <bpmn2:dataInput id="_EF298662-219C-4FF9-BFEA-015BFD2BF582_UrlInputX" drools:dtype="String" itemSubjectRef="__EF298662-219C-4FF9-BFEA-015BFD2BF582_UrlInputXItem" name="Url"/>
         <bpmn2:dataInput id="_EF298662-219C-4FF9-BFEA-015BFD2BF582_TaskNameInputX" drools:dtype="Object" name="TaskName"/>
         <bpmn2:dataOutput id="_EF298662-219C-4FF9-BFEA-015BFD2BF582_memberDataOutputX" drools:dtype="com.health_insurance.phm_cases.Member" itemSubjectRef="__EF298662-219C-4FF9-BFEA-015BFD2BF582_memberDataOutputXItem" name="memberData"/>
-        <bpmn2:inputSet id="_s3Uk49QDEem7JshOyZORSQ">
+        <bpmn2:inputSet id="_HV8_09QEEem7JshOyZORSQ">
           <bpmn2:dataInputRefs>_EF298662-219C-4FF9-BFEA-015BFD2BF582_MethodInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_EF298662-219C-4FF9-BFEA-015BFD2BF582_ContentDataInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_EF298662-219C-4FF9-BFEA-015BFD2BF582_UrlInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_EF298662-219C-4FF9-BFEA-015BFD2BF582_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_s3Uk5NQDEem7JshOyZORSQ">
+        <bpmn2:outputSet id="_HV8_1NQEEem7JshOyZORSQ">
           <bpmn2:dataOutputRefs>_EF298662-219C-4FF9-BFEA-015BFD2BF582_memberDataOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_s3Uk5dQDEem7JshOyZORSQ">
+      <bpmn2:dataInputAssociation id="_HV8_1dQEEem7JshOyZORSQ">
         <bpmn2:targetRef>_EF298662-219C-4FF9-BFEA-015BFD2BF582_MethodInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_s3Uk5tQDEem7JshOyZORSQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_s3Uk59QDEem7JshOyZORSQ"><![CDATA[GET]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_s3Uk6NQDEem7JshOyZORSQ">_EF298662-219C-4FF9-BFEA-015BFD2BF582_MethodInputX</bpmn2:to>
+        <bpmn2:assignment id="_HV8_1tQEEem7JshOyZORSQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_HV8_19QEEem7JshOyZORSQ"><![CDATA[GET]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_HV8_2NQEEem7JshOyZORSQ">_EF298662-219C-4FF9-BFEA-015BFD2BF582_MethodInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_s3Uk6dQDEem7JshOyZORSQ">
+      <bpmn2:dataInputAssociation id="_HV8_2dQEEem7JshOyZORSQ">
         <bpmn2:targetRef>_EF298662-219C-4FF9-BFEA-015BFD2BF582_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_s3Uk6tQDEem7JshOyZORSQ">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_s3Uk69QDEem7JshOyZORSQ"><![CDATA[REST]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_s3Uk7NQDEem7JshOyZORSQ">_EF298662-219C-4FF9-BFEA-015BFD2BF582_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_HV8_2tQEEem7JshOyZORSQ">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_HV8_29QEEem7JshOyZORSQ"><![CDATA[REST]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_HV8_3NQEEem7JshOyZORSQ">_EF298662-219C-4FF9-BFEA-015BFD2BF582_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_s3Uk7dQDEem7JshOyZORSQ">
+      <bpmn2:dataOutputAssociation id="_HV8_3dQEEem7JshOyZORSQ">
         <bpmn2:sourceRef>_EF298662-219C-4FF9-BFEA-015BFD2BF582_memberDataOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>pMember</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -107,11 +107,13 @@
       <bpmn2:outgoing>_08FC2EC3-BFC6-4A3E-999B-002073262FD1</bpmn2:outgoing>
       <bpmn2:script><![CDATA[kcontext.setVariable("pGetMemberUrl","http://dummy.restapiexample.com/api/v1/employee/82448");
 
-kcontext.setVariable("cMember",(Member)kcontext.getVariable("cTrigger").getMember());]]></bpmn2:script>
+Trigger trigger = (Trigger)kcontext.getVariable("cTrigger");
+
+kcontext.setVariable("cMember",(Member)trigger.getMember());]]></bpmn2:script>
     </bpmn2:scriptTask>
   </bpmn2:process>
-  <bpmndi:BPMNDiagram id="_s3Uk7tQDEem7JshOyZORSQ">
-    <bpmndi:BPMNPlane id="_s3Uk79QDEem7JshOyZORSQ" bpmnElement="PHM-Cases.R838">
+  <bpmndi:BPMNDiagram id="_HV8_3tQEEem7JshOyZORSQ">
+    <bpmndi:BPMNPlane id="_HV8_39QEEem7JshOyZORSQ" bpmnElement="PHM-Cases.R838">
       <bpmndi:BPMNShape id="shape__12196A04-65F7-46BF-B89C-23F092219CD8" bpmnElement="_12196A04-65F7-46BF-B89C-23F092219CD8">
         <dc:Bounds height="102.0" width="154.0" x="236.0" y="77.0"/>
       </bpmndi:BPMNShape>
@@ -138,12 +140,12 @@ kcontext.setVariable("cMember",(Member)kcontext.getVariable("cTrigger").getMembe
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
-  <bpmn2:relationship id="_s3Uk8NQDEem7JshOyZORSQ" type="BPSimData">
+  <bpmn2:relationship id="_HV8_4NQEEem7JshOyZORSQ" type="BPSimData">
     <bpmn2:extensionElements>
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
           <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters"/>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_12196A04-65F7-46BF-B89C-23F092219CD8" id="_s3Uk8dQDEem7JshOyZORSQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_12196A04-65F7-46BF-B89C-23F092219CD8" id="_HV8_4dQEEem7JshOyZORSQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -163,7 +165,7 @@ kcontext.setVariable("cMember",(Member)kcontext.getVariable("cTrigger").getMembe
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_EF298662-219C-4FF9-BFEA-015BFD2BF582" id="_s3Uk8tQDEem7JshOyZORSQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_EF298662-219C-4FF9-BFEA-015BFD2BF582" id="_HV8_4tQEEem7JshOyZORSQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -183,7 +185,7 @@ kcontext.setVariable("cMember",(Member)kcontext.getVariable("cTrigger").getMembe
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_34C7E285-4C4D-469C-90D9-E7CB2CDE4500" id="_s3Uk89QDEem7JshOyZORSQ">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_34C7E285-4C4D-469C-90D9-E7CB2CDE4500" id="_HV8_49QEEem7JshOyZORSQ">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -193,7 +195,7 @@ kcontext.setVariable("cMember",(Member)kcontext.getVariable("cTrigger").getMembe
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_s3Uk4NQDEem7JshOyZORSQ</bpmn2:source>
-    <bpmn2:target>_s3Uk4NQDEem7JshOyZORSQ</bpmn2:target>
+    <bpmn2:source>_HV8_0NQEEem7JshOyZORSQ</bpmn2:source>
+    <bpmn2:target>_HV8_0NQEEem7JshOyZORSQ</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
