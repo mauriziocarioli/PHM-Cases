@@ -1,7 +1,7 @@
 [
     
         [
-            "name" : "REST",
+            "name" : "Rest",
             "displayName" : "REST",
             "category" : "jbpm-workitems-rest",
             "description" : "",
