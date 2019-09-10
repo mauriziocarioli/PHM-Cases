@@ -6,12 +6,47 @@ package com.health_insurance.phm_cases;
 
 public class Trigger implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Trigger() {
-    }
+	@org.kie.api.definition.type.Label(value = "Original Trigger ID")
+	private java.lang.String id;
+	@org.kie.api.definition.type.Label(value = "Trigger Description")
+	private java.lang.String description;
+	@org.kie.api.definition.type.Label(value = "Domain")
+	private java.lang.String domain;
 
+	public Trigger() {
+	}
 
+	public java.lang.String getId() {
+		return this.id;
+	}
 
+	public void setId(java.lang.String id) {
+		this.id = id;
+	}
+
+	public java.lang.String getDescription() {
+		return this.description;
+	}
+
+	public void setDescription(java.lang.String description) {
+		this.description = description;
+	}
+
+	public java.lang.String getDomain() {
+		return this.domain;
+	}
+
+	public void setDomain(java.lang.String domain) {
+		this.domain = domain;
+	}
+
+	public Trigger(java.lang.String id, java.lang.String description,
+			java.lang.String domain) {
+		this.id = id;
+		this.description = description;
+		this.domain = domain;
+	}
 
 }
