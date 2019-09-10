@@ -1,8 +1,8 @@
 [
     
         [
-            "name" : "Rest",
-            "displayName" : "Rest",
+            "name" : "REST",
+            "displayName" : "REST",
             "category" : "jbpm-workitems-rest",
             "description" : "",
             "defaultHandler" : "mvel: new org.jbpm.process.workitem.rest.RESTWorkItemHandler()",
