@@ -9,7 +9,7 @@
             "documentation" : "jbpm-workitems-email/index.html",
 
             "parameters" : [
-                                "Reply-To" : new StringDataType()
+                "Reply-To" : new StringDataType()
                 ,"Cc" : new StringDataType()
                 ,"Bcc" : new StringDataType()
                 ,"From" : new StringDataType()
@@ -23,7 +23,7 @@
             ],
             
             "mavenDependencies" : [
-                                 "org.jbpm:jbpm-workitems-email:7.18.0.Final-redhat-00004"
+                "org.jbpm:jbpm-workitems-email:7.18.0.Final-redhat-00004"
             ],
             "icon" : "Email.png"
             
