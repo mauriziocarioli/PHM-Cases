@@ -6,7 +6,7 @@
   <bpmn2:itemDefinition id="_pMemberIdItem" structureRef="String"/>
   <bpmn2:itemDefinition id="_pTaskPriorityItem" structureRef="java.util.LinkedHashMap"/>
   <bpmn2:itemDefinition id="_pA490priorityItem" structureRef="Integer"/>
-  <bpmn2:itemDefinition id="_pB143priorityItem" structureRef="Integer"/>
+  <bpmn2:itemDefinition id="_pB143priorityItem" structureRef="String"/>
   <bpmn2:itemDefinition id="_pC201priorityItem" structureRef="Integer"/>
   <bpmn2:itemDefinition id="_pC178priorityItem" structureRef="Integer"/>
   <bpmn2:itemDefinition id="_caseFile_cMemberItem" structureRef="com.health_insurance.phm_cases.Member"/>
