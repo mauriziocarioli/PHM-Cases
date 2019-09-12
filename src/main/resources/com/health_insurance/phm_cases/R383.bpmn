@@ -72,7 +72,7 @@
         </drools:metaData>
       </bpmn2:extensionElements>
     </bpmn2:sequenceFlow>
-    <bpmn2:sequenceFlow drools:priority="#{pA490priority}" id="_1727ED1A-E8FA-4DC4-B605-0CA190EF7349" name="A490.0" sourceRef="_AEF87781-A065-4D11-8FF8-71995767726A" targetRef="_7E86EE30-D2AB-4F56-B57F-65EDF343D5C0">
+    <bpmn2:sequenceFlow drools:priority="#{pA490priority}" id="_1727ED1A-E8FA-4DC4-B605-0CA190EF7349" name="A490" sourceRef="_AEF87781-A065-4D11-8FF8-71995767726A" targetRef="_7E86EE30-D2AB-4F56-B57F-65EDF343D5C0">
       <bpmn2:extensionElements>
         <drools:metaData name="isAutoConnection.target">
           <metaData>
