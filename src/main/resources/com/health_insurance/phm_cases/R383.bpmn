@@ -26,7 +26,7 @@
     <bpmn2:property id="pMemberId" itemSubjectRef="_pMemberIdItem" name="pMemberId"/>
     <bpmn2:property id="pTaskPriority" itemSubjectRef="_pTaskPriorityItem" name="pTaskPriority"/>
     <bpmn2:property id="pA490priority" itemSubjectRef="_pA490priorityItem" name="pA490priority"/>
-    <bpmn2:property id="pB143priority" itemSubjectRef="_pB143priorityItem" name="pB143priority"/>
+    <bpmn2:property id="pB143priority" itemSubjectRef="_pB143priorityItem" name="B143priority"/>
     <bpmn2:property id="pC201priority" itemSubjectRef="_pC201priorityItem" name="pC201priority"/>
     <bpmn2:property id="pC178priority" itemSubjectRef="_pC178priorityItem" name="pC178priority"/>
     <bpmn2:property id="caseFile_cMember" itemSubjectRef="_caseFile_cMemberItem" name="caseFile_cMember"/>
