@@ -30,7 +30,7 @@
     <bpmn2:property id="pC201priority" itemSubjectRef="_pC201priorityItem" name="pC201priority"/>
     <bpmn2:property id="pC178priority" itemSubjectRef="_pC178priorityItem" name="pC178priority"/>
     <bpmn2:property id="caseFile_cMember" itemSubjectRef="_caseFile_cMemberItem" name="caseFile_cMember"/>
-    <bpmn2:sequenceFlow id="_4466F549-05BC-42EA-A1A4-6CE82D34A9DC" drools:priority="2" name="B143" sourceRef="_AEF87781-A065-4D11-8FF8-71995767726A" targetRef="_2A98FBAB-6618-429D-9AB7-3DBB5482E509">
+    <bpmn2:sequenceFlow id="_4466F549-05BC-42EA-A1A4-6CE82D34A9DC" drools:priority="#{pB143priority}" name="B143" sourceRef="_AEF87781-A065-4D11-8FF8-71995767726A" targetRef="_2A98FBAB-6618-429D-9AB7-3DBB5482E509">
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
           <drools:metaValue><![CDATA[B143]]></drools:metaValue>
@@ -52,7 +52,7 @@
         </drools:metaData>
       </bpmn2:extensionElements>
     </bpmn2:sequenceFlow>
-    <bpmn2:sequenceFlow id="_1727ED1A-E8FA-4DC4-B605-0CA190EF7349" drools:priority="1" name="A490.0" sourceRef="_AEF87781-A065-4D11-8FF8-71995767726A" targetRef="_7E86EE30-D2AB-4F56-B57F-65EDF343D5C0">
+    <bpmn2:sequenceFlow id="_1727ED1A-E8FA-4DC4-B605-0CA190EF7349" drools:priority="1" name="A490" sourceRef="_AEF87781-A065-4D11-8FF8-71995767726A" targetRef="_7E86EE30-D2AB-4F56-B57F-65EDF343D5C0">
       <bpmn2:extensionElements>
         <drools:metaData name="isAutoConnection.target">
           <drools:metaValue><![CDATA[true]]></drools:metaValue>
