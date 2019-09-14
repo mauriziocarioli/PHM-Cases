@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_Wwt-QNcxEemXOMeqixcv0w" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_wxCskNcxEemXOMeqixcv0w" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
   <bpmn2:itemDefinition id="_sProviderIdItem" structureRef="String"/>
   <bpmn2:itemDefinition id="_sPharmacistIdItem" structureRef="String"/>
   <bpmn2:itemDefinition id="_sGetProviderInfoURLItem" structureRef="String"/>
@@ -54,7 +54,7 @@
   <bpmn2:itemDefinition id="__1A2301A9-98AB-474B-85E1-09D6A354D929_answerOutputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__1A2301A9-98AB-474B-85E1-09D6A354D929_NATextOutputXItem" structureRef="String"/>
   <bpmn2:process id="PHM-Cases.A490.0" drools:packageName="com.health_insurance.phm_cases" drools:version="1.0" drools:adHoc="true" name="A490.0" isExecutable="true">
-    <bpmn2:documentation id="_Wwt-QdcxEemXOMeqixcv0w"><![CDATA[MESSAGE: Member with Rheumatoid Arthritis without evidence of filling a prescription for a DMARD within the last year.]]></bpmn2:documentation>
+    <bpmn2:documentation id="_wxCskdcxEemXOMeqixcv0w"><![CDATA[MESSAGE: Member with Rheumatoid Arthritis without evidence of filling a prescription for a DMARD within the last year.]]></bpmn2:documentation>
     <bpmn2:extensionElements>
       <drools:metaData name="customCaseIdPrefix">
         <drools:metaValue><![CDATA[A4900]]></drools:metaValue>
@@ -144,7 +144,7 @@
         </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_7D7B43F7-40EB-46DA-972B-23DD9B71C25C</bpmn2:incoming>
-      <bpmn2:ioSpecification id="_Wwt-QtcxEemXOMeqixcv0w">
+      <bpmn2:ioSpecification id="_wxCsktcxEemXOMeqixcv0w">
         <bpmn2:dataInput id="_1A2301A9-98AB-474B-85E1-09D6A354D929_TaskNameInputX" drools:dtype="Object" itemSubjectRef="__1A2301A9-98AB-474B-85E1-09D6A354D929_TaskNameInputXItem" name="TaskName"/>
         <bpmn2:dataInput id="_1A2301A9-98AB-474B-85E1-09D6A354D929_pharmacistContactInfoInputX" drools:dtype="String" itemSubjectRef="__1A2301A9-98AB-474B-85E1-09D6A354D929_pharmacistContactInfoInputXItem" name="pharmacistContactInfo"/>
         <bpmn2:dataInput id="_1A2301A9-98AB-474B-85E1-09D6A354D929_SkippableInputX" drools:dtype="Object" itemSubjectRef="__1A2301A9-98AB-474B-85E1-09D6A354D929_SkippableInputXItem" name="Skippable"/>
@@ -152,52 +152,52 @@
         <bpmn2:dataOutput id="_1A2301A9-98AB-474B-85E1-09D6A354D929_supplementalDataOutputX" drools:dtype="com.jbpm.document.Document" itemSubjectRef="__1A2301A9-98AB-474B-85E1-09D6A354D929_supplementalDataOutputXItem" name="supplementalData"/>
         <bpmn2:dataOutput id="_1A2301A9-98AB-474B-85E1-09D6A354D929_answerOutputX" drools:dtype="String" itemSubjectRef="__1A2301A9-98AB-474B-85E1-09D6A354D929_answerOutputXItem" name="answer"/>
         <bpmn2:dataOutput id="_1A2301A9-98AB-474B-85E1-09D6A354D929_NATextOutputX" drools:dtype="String" itemSubjectRef="__1A2301A9-98AB-474B-85E1-09D6A354D929_NATextOutputXItem" name="NAText"/>
-        <bpmn2:inputSet id="_Wwt-Q9cxEemXOMeqixcv0w">
+        <bpmn2:inputSet id="_wxCsk9cxEemXOMeqixcv0w">
           <bpmn2:dataInputRefs>_1A2301A9-98AB-474B-85E1-09D6A354D929_TaskNameInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_1A2301A9-98AB-474B-85E1-09D6A354D929_pharmacistContactInfoInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_1A2301A9-98AB-474B-85E1-09D6A354D929_SkippableInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_1A2301A9-98AB-474B-85E1-09D6A354D929_GroupIdInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_Wwt-RNcxEemXOMeqixcv0w">
+        <bpmn2:outputSet id="_wxCslNcxEemXOMeqixcv0w">
           <bpmn2:dataOutputRefs>_1A2301A9-98AB-474B-85E1-09D6A354D929_supplementalDataOutputX</bpmn2:dataOutputRefs>
           <bpmn2:dataOutputRefs>_1A2301A9-98AB-474B-85E1-09D6A354D929_answerOutputX</bpmn2:dataOutputRefs>
           <bpmn2:dataOutputRefs>_1A2301A9-98AB-474B-85E1-09D6A354D929_NATextOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_Wwt-RdcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCsldcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_1A2301A9-98AB-474B-85E1-09D6A354D929_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-RtcxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-R9cxEemXOMeqixcv0w"><![CDATA[EscalationTask]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-SNcxEemXOMeqixcv0w">_1A2301A9-98AB-474B-85E1-09D6A354D929_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxCsltcxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxCsl9cxEemXOMeqixcv0w"><![CDATA[EscalationTask]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxCsmNcxEemXOMeqixcv0w">_1A2301A9-98AB-474B-85E1-09D6A354D929_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-SdcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCsmdcxEemXOMeqixcv0w">
         <bpmn2:sourceRef>sPharmacistContactInfo</bpmn2:sourceRef>
         <bpmn2:targetRef>_1A2301A9-98AB-474B-85E1-09D6A354D929_pharmacistContactInfoInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-StcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCsmtcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_1A2301A9-98AB-474B-85E1-09D6A354D929_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-S9cxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-TNcxEemXOMeqixcv0w"><![CDATA[false]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-TdcxEemXOMeqixcv0w">_1A2301A9-98AB-474B-85E1-09D6A354D929_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxCsm9cxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxCsnNcxEemXOMeqixcv0w"><![CDATA[false]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxCsndcxEemXOMeqixcv0w">_1A2301A9-98AB-474B-85E1-09D6A354D929_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-TtcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCsntcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_1A2301A9-98AB-474B-85E1-09D6A354D929_GroupIdInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-T9cxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-UNcxEemXOMeqixcv0w"><![CDATA[#{sEscalationGroup}]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-UdcxEemXOMeqixcv0w">_1A2301A9-98AB-474B-85E1-09D6A354D929_GroupIdInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxCsn9cxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxCsoNcxEemXOMeqixcv0w"><![CDATA[#{sEscalationGroup}]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxCsodcxEemXOMeqixcv0w">_1A2301A9-98AB-474B-85E1-09D6A354D929_GroupIdInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_Wwt-UtcxEemXOMeqixcv0w">
+      <bpmn2:dataOutputAssociation id="_wxCsotcxEemXOMeqixcv0w">
         <bpmn2:sourceRef>_1A2301A9-98AB-474B-85E1-09D6A354D929_supplementalDataOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>caseFile_cSupplementalData</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:dataOutputAssociation id="_Wwt-U9cxEemXOMeqixcv0w">
+      <bpmn2:dataOutputAssociation id="_wxCso9cxEemXOMeqixcv0w">
         <bpmn2:sourceRef>_1A2301A9-98AB-474B-85E1-09D6A354D929_answerOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>caseFile_cAnswer</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:dataOutputAssociation id="_Wwt-VNcxEemXOMeqixcv0w">
+      <bpmn2:dataOutputAssociation id="_wxCspNcxEemXOMeqixcv0w">
         <bpmn2:sourceRef>_1A2301A9-98AB-474B-85E1-09D6A354D929_NATextOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>caseFile_cNAText</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -211,12 +211,17 @@
           <drools:metaValue><![CDATA[true]]></drools:metaValue>
         </drools:metaData>
         <drools:onEntry-script scriptFormat="http://www.java.com/java">
-          <drools:script><![CDATA[System.out.println(">>>>>>>>>>>>>>[2] sPharmacistContactInfo="+(String)kcontext.getVariable("sPharmacistContactInfo"));
-System.out.println(>>>>>>>>>>>>>>[2] cAnswer="+(String)org.kie.api.runtime.process.CaseData.getData("cAnswer"));]]></drools:script>
+          <drools:script><![CDATA[String s = (String)kcontext.getVariable("sPharmacistContactInfo");
+System.out.println(">>>>>>>>>>>>>>[2] sPharmacistContactInfo="+s);
+]]></drools:script>
         </drools:onEntry-script>
+        <drools:onExit-script scriptFormat="http://www.java.com/java">
+          <drools:script><![CDATA[String a = (String)org.kie.api.runtime.process.CaseData.getData("cAnswer");
+System.out.println(">>>>>>>>>>>>>>[2] cAnswer="+a);]]></drools:script>
+        </drools:onExit-script>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_DC4D4FD4-6650-4448-A13C-7569B5BE5F1B</bpmn2:incoming>
-      <bpmn2:ioSpecification id="_Wwt-VdcxEemXOMeqixcv0w">
+      <bpmn2:ioSpecification id="_wxCspdcxEemXOMeqixcv0w">
         <bpmn2:dataInput id="_0B60C4B4-8630-4ACE-9106-50930C9E17E8_TaskNameInputX" drools:dtype="Object" itemSubjectRef="__0B60C4B4-8630-4ACE-9106-50930C9E17E8_TaskNameInputXItem" name="TaskName"/>
         <bpmn2:dataInput id="_0B60C4B4-8630-4ACE-9106-50930C9E17E8_pharmacistContactInfoInputX" drools:dtype="String" itemSubjectRef="__0B60C4B4-8630-4ACE-9106-50930C9E17E8_pharmacistContactInfoInputXItem" name="pharmacistContactInfo"/>
         <bpmn2:dataInput id="_0B60C4B4-8630-4ACE-9106-50930C9E17E8_SkippableInputX" drools:dtype="Object" itemSubjectRef="__0B60C4B4-8630-4ACE-9106-50930C9E17E8_SkippableInputXItem" name="Skippable"/>
@@ -227,7 +232,7 @@ System.out.println(>>>>>>>>>>>>>>[2] cAnswer="+(String)org.kie.api.runtime.proce
         <bpmn2:dataOutput id="_0B60C4B4-8630-4ACE-9106-50930C9E17E8_supplementalDataOutputX" drools:dtype="com.jbpm.document.Document" itemSubjectRef="__0B60C4B4-8630-4ACE-9106-50930C9E17E8_supplementalDataOutputXItem" name="supplementalData"/>
         <bpmn2:dataOutput id="_0B60C4B4-8630-4ACE-9106-50930C9E17E8_answerOutputX" drools:dtype="String" itemSubjectRef="__0B60C4B4-8630-4ACE-9106-50930C9E17E8_answerOutputXItem" name="answer"/>
         <bpmn2:dataOutput id="_0B60C4B4-8630-4ACE-9106-50930C9E17E8_NATextOutputX" drools:dtype="String" itemSubjectRef="__0B60C4B4-8630-4ACE-9106-50930C9E17E8_NATextOutputXItem" name="NAText"/>
-        <bpmn2:inputSet id="_Wwt-VtcxEemXOMeqixcv0w">
+        <bpmn2:inputSet id="_wxCsptcxEemXOMeqixcv0w">
           <bpmn2:dataInputRefs>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_TaskNameInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_pharmacistContactInfoInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_SkippableInputX</bpmn2:dataInputRefs>
@@ -236,73 +241,73 @@ System.out.println(>>>>>>>>>>>>>>[2] cAnswer="+(String)org.kie.api.runtime.proce
           <bpmn2:dataInputRefs>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_DescriptionInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_ContentInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_Wwt-V9cxEemXOMeqixcv0w">
+        <bpmn2:outputSet id="_wxCsp9cxEemXOMeqixcv0w">
           <bpmn2:dataOutputRefs>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_supplementalDataOutputX</bpmn2:dataOutputRefs>
           <bpmn2:dataOutputRefs>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_answerOutputX</bpmn2:dataOutputRefs>
           <bpmn2:dataOutputRefs>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_NATextOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_Wwt-WNcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCsqNcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-WdcxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-WtcxEemXOMeqixcv0w"><![CDATA[B143Task]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-W9cxEemXOMeqixcv0w">_0B60C4B4-8630-4ACE-9106-50930C9E17E8_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxCsqdcxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxCsqtcxEemXOMeqixcv0w"><![CDATA[B143Task]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxCsq9cxEemXOMeqixcv0w">_0B60C4B4-8630-4ACE-9106-50930C9E17E8_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-XNcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCsrNcxEemXOMeqixcv0w">
         <bpmn2:sourceRef>sPharmacistContactInfo</bpmn2:sourceRef>
         <bpmn2:targetRef>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_pharmacistContactInfoInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-XdcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCsrdcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_SkippableInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-XtcxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-X9cxEemXOMeqixcv0w"><![CDATA[false]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-YNcxEemXOMeqixcv0w">_0B60C4B4-8630-4ACE-9106-50930C9E17E8_SkippableInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxCsrtcxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxCsr9cxEemXOMeqixcv0w"><![CDATA[false]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxCssNcxEemXOMeqixcv0w">_0B60C4B4-8630-4ACE-9106-50930C9E17E8_SkippableInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-YdcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCssdcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_GroupIdInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-YtcxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-Y9cxEemXOMeqixcv0w"><![CDATA[#{sProviderGroup}]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-ZNcxEemXOMeqixcv0w">_0B60C4B4-8630-4ACE-9106-50930C9E17E8_GroupIdInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxCsstcxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxCss9cxEemXOMeqixcv0w"><![CDATA[#{sProviderGroup}]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxCstNcxEemXOMeqixcv0w">_0B60C4B4-8630-4ACE-9106-50930C9E17E8_GroupIdInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-ZdcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCstdcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_CommentInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-ZtcxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-Z9cxEemXOMeqixcv0w"><![CDATA[Member with Rheumatoid Arthritis without evidence of filling a prescription for a DMARD within the l]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-aNcxEemXOMeqixcv0w">_0B60C4B4-8630-4ACE-9106-50930C9E17E8_CommentInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxCsttcxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxCst9cxEemXOMeqixcv0w"><![CDATA[Member with Rheumatoid Arthritis without evidence of filling a prescription for a DMARD within the l]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxCsuNcxEemXOMeqixcv0w">_0B60C4B4-8630-4ACE-9106-50930C9E17E8_CommentInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-adcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCsudcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_DescriptionInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-atcxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-a9cxEemXOMeqixcv0w"><![CDATA[MESSAGE: Member is receiving DMARD through PAP (Pharmacy Assistance Program) program.]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-bNcxEemXOMeqixcv0w">_0B60C4B4-8630-4ACE-9106-50930C9E17E8_DescriptionInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxCsutcxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxCsu9cxEemXOMeqixcv0w"><![CDATA[MESSAGE: Member is receiving DMARD through PAP (Pharmacy Assistance Program) program.]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxCsvNcxEemXOMeqixcv0w">_0B60C4B4-8630-4ACE-9106-50930C9E17E8_DescriptionInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-bdcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCsvdcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_ContentInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-btcxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-b9cxEemXOMeqixcv0w"><![CDATA[There's no evidence that your patient with rheumatoid arthritis filled a DMARD prescription this year. Please submit documentation of contraindication, if applicable.  ]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-cNcxEemXOMeqixcv0w">_0B60C4B4-8630-4ACE-9106-50930C9E17E8_ContentInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxCsvtcxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxCsv9cxEemXOMeqixcv0w"><![CDATA[There's no evidence that your patient with rheumatoid arthritis filled a DMARD prescription this year. Please submit documentation of contraindication, if applicable.  ]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxCswNcxEemXOMeqixcv0w">_0B60C4B4-8630-4ACE-9106-50930C9E17E8_ContentInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_Wwt-cdcxEemXOMeqixcv0w">
+      <bpmn2:dataOutputAssociation id="_wxCswdcxEemXOMeqixcv0w">
         <bpmn2:sourceRef>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_supplementalDataOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>caseFile_cSupplementalData</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:dataOutputAssociation id="_Wwt-ctcxEemXOMeqixcv0w">
+      <bpmn2:dataOutputAssociation id="_wxCswtcxEemXOMeqixcv0w">
         <bpmn2:sourceRef>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_answerOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>caseFile_cAnswer</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:dataOutputAssociation id="_Wwt-c9cxEemXOMeqixcv0w">
+      <bpmn2:dataOutputAssociation id="_wxCsw9cxEemXOMeqixcv0w">
         <bpmn2:sourceRef>_0B60C4B4-8630-4ACE-9106-50930C9E17E8_NATextOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>caseFile_cNAText</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
     </bpmn2:userTask>
     <bpmn2:task id="_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158" drools:taskName="Rest" name="Send Reminder Service">
-      <bpmn2:documentation id="_Wwt-dNcxEemXOMeqixcv0w"><![CDATA[jbpm-workitems-rest/index.html]]></bpmn2:documentation>
+      <bpmn2:documentation id="_wxCsxNcxEemXOMeqixcv0w"><![CDATA[jbpm-workitems-rest/index.html]]></bpmn2:documentation>
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
           <drools:metaValue><![CDATA[Send Reminder Service]]></drools:metaValue>
@@ -314,54 +319,54 @@ kcontext.setVariable("sDummyContent","{\"name\":\"test\",\"salary\":\"123\",\"ag
         </drools:onEntry-script>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_EAAA003C-D4A6-4CBB-95A3-1CAAE630C115</bpmn2:incoming>
-      <bpmn2:ioSpecification id="_Wwt-ddcxEemXOMeqixcv0w">
+      <bpmn2:ioSpecification id="_wxCsxdcxEemXOMeqixcv0w">
         <bpmn2:dataInput id="_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_ContentTypeInputX" drools:dtype="String" itemSubjectRef="__2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_ContentTypeInputXItem" name="ContentType"/>
         <bpmn2:dataInput id="_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_MethodInputX" drools:dtype="String" itemSubjectRef="__2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_MethodInputXItem" name="Method"/>
         <bpmn2:dataInput id="_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_UrlInputX" drools:dtype="String" itemSubjectRef="__2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_UrlInputXItem" name="Url"/>
         <bpmn2:dataInput id="_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_ContentDataInputX" drools:dtype="String" itemSubjectRef="__2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_ContentDataInputXItem" name="ContentData"/>
         <bpmn2:dataInput id="_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_TaskNameInputX" drools:dtype="Object" name="TaskName"/>
         <bpmn2:dataOutput id="_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_ResultOutputX" drools:dtype="String" itemSubjectRef="__2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_ResultOutputXItem" name="Result"/>
-        <bpmn2:inputSet id="_Wwt-dtcxEemXOMeqixcv0w">
+        <bpmn2:inputSet id="_wxCsxtcxEemXOMeqixcv0w">
           <bpmn2:dataInputRefs>_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_ContentTypeInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_MethodInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_UrlInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_ContentDataInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_Wwt-d9cxEemXOMeqixcv0w">
+        <bpmn2:outputSet id="_wxCsx9cxEemXOMeqixcv0w">
           <bpmn2:dataOutputRefs>_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_ResultOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_Wwt-eNcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCsyNcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_ContentTypeInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-edcxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-etcxEemXOMeqixcv0w"><![CDATA[application/json]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-e9cxEemXOMeqixcv0w">_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_ContentTypeInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxCsydcxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxCsytcxEemXOMeqixcv0w"><![CDATA[application/json]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxCsy9cxEemXOMeqixcv0w">_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_ContentTypeInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-fNcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCszNcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_MethodInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-fdcxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-ftcxEemXOMeqixcv0w"><![CDATA[POST]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-f9cxEemXOMeqixcv0w">_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_MethodInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxCszdcxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxCsztcxEemXOMeqixcv0w"><![CDATA[POST]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxCsz9cxEemXOMeqixcv0w">_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_MethodInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-gNcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCs0NcxEemXOMeqixcv0w">
         <bpmn2:sourceRef>sSendReminderUrl</bpmn2:sourceRef>
         <bpmn2:targetRef>_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_UrlInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-gdcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCs0dcxEemXOMeqixcv0w">
         <bpmn2:sourceRef>sDummyContent</bpmn2:sourceRef>
         <bpmn2:targetRef>_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_ContentDataInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-gtcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxCs0tcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-g9cxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-hNcxEemXOMeqixcv0w"><![CDATA[Rest]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-hdcxEemXOMeqixcv0w">_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxCs09cxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxCs1NcxEemXOMeqixcv0w"><![CDATA[Rest]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxDToNcxEemXOMeqixcv0w">_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_Wwt-htcxEemXOMeqixcv0w">
+      <bpmn2:dataOutputAssociation id="_wxDTodcxEemXOMeqixcv0w">
         <bpmn2:sourceRef>_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158_ResultOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>sDummyResult</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -376,31 +381,34 @@ kcontext.setVariable("sDummyContent","{\"name\":\"test\",\"salary\":\"123\",\"ag
         </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:outgoing>_461321E7-47D7-4990-8369-5F66661B3D55</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_Wwt-h9cxEemXOMeqixcv0w">
+      <bpmn2:ioSpecification id="_wxDTotcxEemXOMeqixcv0w">
         <bpmn2:dataInput id="_32B7B893-9456-4563-94BB-A27F93B19AD3_ConditionInputX" drools:dtype="String" itemSubjectRef="__32B7B893-9456-4563-94BB-A27F93B19AD3_ConditionInputXItem" name="Condition"/>
         <bpmn2:dataInput id="_32B7B893-9456-4563-94BB-A27F93B19AD3_TaskNameInputX" drools:dtype="Object" name="TaskName"/>
-        <bpmn2:inputSet id="_Wwt-iNcxEemXOMeqixcv0w">
+        <bpmn2:inputSet id="_wxDTo9cxEemXOMeqixcv0w">
           <bpmn2:dataInputRefs>_32B7B893-9456-4563-94BB-A27F93B19AD3_ConditionInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_32B7B893-9456-4563-94BB-A27F93B19AD3_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_Wwt-idcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxDTpNcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_32B7B893-9456-4563-94BB-A27F93B19AD3_ConditionInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-itcxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-i9cxEemXOMeqixcv0w"><![CDATA[org.kie.api.runtime.process.CaseData(data.get("cAnswer") != null)]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-jNcxEemXOMeqixcv0w">_32B7B893-9456-4563-94BB-A27F93B19AD3_ConditionInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxDTpdcxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxDTptcxEemXOMeqixcv0w"><![CDATA[org.kie.api.runtime.process.CaseData(data.get("cAnswer") != null)]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxDTp9cxEemXOMeqixcv0w">_32B7B893-9456-4563-94BB-A27F93B19AD3_ConditionInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-jdcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxDTqNcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_32B7B893-9456-4563-94BB-A27F93B19AD3_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-jtcxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-j9cxEemXOMeqixcv0w"><![CDATA[Milestone]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-kNcxEemXOMeqixcv0w">_32B7B893-9456-4563-94BB-A27F93B19AD3_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxDTqdcxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxDTqtcxEemXOMeqixcv0w"><![CDATA[Milestone]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxDTq9cxEemXOMeqixcv0w">_32B7B893-9456-4563-94BB-A27F93B19AD3_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
     </bpmn2:task>
+    <bpmn2:startEvent id="_C0B08CE6-6D97-4E43-A4BA-450D590C88EE">
+      <bpmn2:outgoing>_E3815773-11E4-4DAF-8438-4C17D6359EEC</bpmn2:outgoing>
+    </bpmn2:startEvent>
     <bpmn2:task id="_B1167A7D-EBAD-4B99-A411-72316ACDD393" drools:taskName="Rest" name="Get Provider Info Service">
-      <bpmn2:documentation id="_Wwt-kdcxEemXOMeqixcv0w"><![CDATA[jbpm-workitems-rest/index.html]]></bpmn2:documentation>
+      <bpmn2:documentation id="_wxDTrNcxEemXOMeqixcv0w"><![CDATA[jbpm-workitems-rest/index.html]]></bpmn2:documentation>
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
           <drools:metaValue><![CDATA[Get Provider Info Service]]></drools:metaValue>
@@ -421,48 +429,45 @@ kcontext.setVariable("sEscalationGroup","PEA");]]></drools:script>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_E3815773-11E4-4DAF-8438-4C17D6359EEC</bpmn2:incoming>
       <bpmn2:outgoing>_B2B3461A-D0B5-4A60-8604-0B1CAB5D0862</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_Wwt-ktcxEemXOMeqixcv0w">
+      <bpmn2:ioSpecification id="_wxDTrdcxEemXOMeqixcv0w">
         <bpmn2:dataInput id="_B1167A7D-EBAD-4B99-A411-72316ACDD393_MethodInputX" drools:dtype="String" itemSubjectRef="__B1167A7D-EBAD-4B99-A411-72316ACDD393_MethodInputXItem" name="Method"/>
         <bpmn2:dataInput id="_B1167A7D-EBAD-4B99-A411-72316ACDD393_UrlInputX" drools:dtype="String" itemSubjectRef="__B1167A7D-EBAD-4B99-A411-72316ACDD393_UrlInputXItem" name="Url"/>
         <bpmn2:dataInput id="_B1167A7D-EBAD-4B99-A411-72316ACDD393_TaskNameInputX" drools:dtype="Object" name="TaskName"/>
         <bpmn2:dataOutput id="_B1167A7D-EBAD-4B99-A411-72316ACDD393_ResultOutputX" drools:dtype="String" itemSubjectRef="__B1167A7D-EBAD-4B99-A411-72316ACDD393_ResultOutputXItem" name="Result"/>
-        <bpmn2:inputSet id="_Wwt-k9cxEemXOMeqixcv0w">
+        <bpmn2:inputSet id="_wxDTrtcxEemXOMeqixcv0w">
           <bpmn2:dataInputRefs>_B1167A7D-EBAD-4B99-A411-72316ACDD393_MethodInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_B1167A7D-EBAD-4B99-A411-72316ACDD393_UrlInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_B1167A7D-EBAD-4B99-A411-72316ACDD393_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_Wwt-lNcxEemXOMeqixcv0w">
+        <bpmn2:outputSet id="_wxDTr9cxEemXOMeqixcv0w">
           <bpmn2:dataOutputRefs>_B1167A7D-EBAD-4B99-A411-72316ACDD393_ResultOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_Wwt-ldcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxDTsNcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_B1167A7D-EBAD-4B99-A411-72316ACDD393_MethodInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-ltcxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-l9cxEemXOMeqixcv0w"><![CDATA[GET]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-mNcxEemXOMeqixcv0w">_B1167A7D-EBAD-4B99-A411-72316ACDD393_MethodInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxDTsdcxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxDTstcxEemXOMeqixcv0w"><![CDATA[GET]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxDTs9cxEemXOMeqixcv0w">_B1167A7D-EBAD-4B99-A411-72316ACDD393_MethodInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-mdcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxDTtNcxEemXOMeqixcv0w">
         <bpmn2:sourceRef>sGetProviderInfoURL</bpmn2:sourceRef>
         <bpmn2:targetRef>_B1167A7D-EBAD-4B99-A411-72316ACDD393_UrlInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-mtcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxDTtdcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_B1167A7D-EBAD-4B99-A411-72316ACDD393_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-m9cxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-nNcxEemXOMeqixcv0w"><![CDATA[Rest]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-ndcxEemXOMeqixcv0w">_B1167A7D-EBAD-4B99-A411-72316ACDD393_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxDTttcxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxDTt9cxEemXOMeqixcv0w"><![CDATA[Rest]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxDTuNcxEemXOMeqixcv0w">_B1167A7D-EBAD-4B99-A411-72316ACDD393_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_Wwt-ntcxEemXOMeqixcv0w">
+      <bpmn2:dataOutputAssociation id="_wxDTudcxEemXOMeqixcv0w">
         <bpmn2:sourceRef>_B1167A7D-EBAD-4B99-A411-72316ACDD393_ResultOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>sDummyResult</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
     </bpmn2:task>
-    <bpmn2:startEvent id="_C0B08CE6-6D97-4E43-A4BA-450D590C88EE">
-      <bpmn2:outgoing>_E3815773-11E4-4DAF-8438-4C17D6359EEC</bpmn2:outgoing>
-    </bpmn2:startEvent>
     <bpmn2:task id="_2B1F30F1-359E-4C86-A3DB-7F76A5252697" drools:taskName="Rest" name="Get Pharmacist Info Service">
-      <bpmn2:documentation id="_Wwt-n9cxEemXOMeqixcv0w"><![CDATA[jbpm-workitems-rest/index.html]]></bpmn2:documentation>
+      <bpmn2:documentation id="_wxDTutcxEemXOMeqixcv0w"><![CDATA[jbpm-workitems-rest/index.html]]></bpmn2:documentation>
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
           <drools:metaValue><![CDATA[Get Pharmacist Info Service]]></drools:metaValue>
@@ -478,39 +483,39 @@ kcontext.setVariable("sTest","this is a test");
       </bpmn2:extensionElements>
       <bpmn2:incoming>_B2B3461A-D0B5-4A60-8604-0B1CAB5D0862</bpmn2:incoming>
       <bpmn2:outgoing>_DC4D4FD4-6650-4448-A13C-7569B5BE5F1B</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_Wwt-oNcxEemXOMeqixcv0w">
+      <bpmn2:ioSpecification id="_wxDTu9cxEemXOMeqixcv0w">
         <bpmn2:dataInput id="_2B1F30F1-359E-4C86-A3DB-7F76A5252697_MethodInputX" drools:dtype="String" itemSubjectRef="__2B1F30F1-359E-4C86-A3DB-7F76A5252697_MethodInputXItem" name="Method"/>
         <bpmn2:dataInput id="_2B1F30F1-359E-4C86-A3DB-7F76A5252697_UrlInputX" drools:dtype="String" itemSubjectRef="__2B1F30F1-359E-4C86-A3DB-7F76A5252697_UrlInputXItem" name="Url"/>
         <bpmn2:dataInput id="_2B1F30F1-359E-4C86-A3DB-7F76A5252697_TaskNameInputX" drools:dtype="Object" name="TaskName"/>
         <bpmn2:dataOutput id="_2B1F30F1-359E-4C86-A3DB-7F76A5252697_ResultOutputX" drools:dtype="String" itemSubjectRef="__2B1F30F1-359E-4C86-A3DB-7F76A5252697_ResultOutputXItem" name="Result"/>
-        <bpmn2:inputSet id="_Wwt-odcxEemXOMeqixcv0w">
+        <bpmn2:inputSet id="_wxDTvNcxEemXOMeqixcv0w">
           <bpmn2:dataInputRefs>_2B1F30F1-359E-4C86-A3DB-7F76A5252697_MethodInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_2B1F30F1-359E-4C86-A3DB-7F76A5252697_UrlInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_2B1F30F1-359E-4C86-A3DB-7F76A5252697_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_Wwt-otcxEemXOMeqixcv0w">
+        <bpmn2:outputSet id="_wxDTvdcxEemXOMeqixcv0w">
           <bpmn2:dataOutputRefs>_2B1F30F1-359E-4C86-A3DB-7F76A5252697_ResultOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_Wwt-o9cxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxDTvtcxEemXOMeqixcv0w">
         <bpmn2:targetRef>_2B1F30F1-359E-4C86-A3DB-7F76A5252697_MethodInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-pNcxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-pdcxEemXOMeqixcv0w"><![CDATA[GET]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-ptcxEemXOMeqixcv0w">_2B1F30F1-359E-4C86-A3DB-7F76A5252697_MethodInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxDTv9cxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxDTwNcxEemXOMeqixcv0w"><![CDATA[GET]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxDTwdcxEemXOMeqixcv0w">_2B1F30F1-359E-4C86-A3DB-7F76A5252697_MethodInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-p9cxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxDTwtcxEemXOMeqixcv0w">
         <bpmn2:sourceRef>sGetPharmacistInfoURL</bpmn2:sourceRef>
         <bpmn2:targetRef>_2B1F30F1-359E-4C86-A3DB-7F76A5252697_UrlInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_Wwt-qNcxEemXOMeqixcv0w">
+      <bpmn2:dataInputAssociation id="_wxDTw9cxEemXOMeqixcv0w">
         <bpmn2:targetRef>_2B1F30F1-359E-4C86-A3DB-7F76A5252697_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_Wwt-qdcxEemXOMeqixcv0w">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_Wwt-qtcxEemXOMeqixcv0w"><![CDATA[Rest]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_Wwt-q9cxEemXOMeqixcv0w">_2B1F30F1-359E-4C86-A3DB-7F76A5252697_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_wxDTxNcxEemXOMeqixcv0w">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_wxDTxdcxEemXOMeqixcv0w"><![CDATA[Rest]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_wxDTxtcxEemXOMeqixcv0w">_2B1F30F1-359E-4C86-A3DB-7F76A5252697_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
-      <bpmn2:dataOutputAssociation id="_Wwt-rNcxEemXOMeqixcv0w">
+      <bpmn2:dataOutputAssociation id="_wxDTx9cxEemXOMeqixcv0w">
         <bpmn2:sourceRef>_2B1F30F1-359E-4C86-A3DB-7F76A5252697_ResultOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>sDummyResult</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
@@ -522,8 +527,8 @@ kcontext.setVariable("sTest","this is a test");
         </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:outgoing>_EAAA003C-D4A6-4CBB-95A3-1CAAE630C115</bpmn2:outgoing>
-      <bpmn2:timerEventDefinition id="_Wwt-rdcxEemXOMeqixcv0w">
-        <bpmn2:timeDuration xsi:type="bpmn2:tFormalExpression" id="_Wwt-rtcxEemXOMeqixcv0w">PT30M</bpmn2:timeDuration>
+      <bpmn2:timerEventDefinition id="_wxDTyNcxEemXOMeqixcv0w">
+        <bpmn2:timeDuration xsi:type="bpmn2:tFormalExpression" id="_wxDTydcxEemXOMeqixcv0w">PT30M</bpmn2:timeDuration>
       </bpmn2:timerEventDefinition>
     </bpmn2:boundaryEvent>
     <bpmn2:boundaryEvent id="_0D4D4FAF-AFE5-4E61-B406-BC6AC906F28F" drools:boundaryca="false" drools:dockerinfo="-20.7^74.0|" name="HEDIS Compliance" attachedToRef="_32B7B893-9456-4563-94BB-A27F93B19AD3" cancelActivity="false">
@@ -533,21 +538,21 @@ kcontext.setVariable("sTest","this is a test");
         </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:outgoing>_7D7B43F7-40EB-46DA-972B-23DD9B71C25C</bpmn2:outgoing>
-      <bpmn2:timerEventDefinition id="_Wwt-r9cxEemXOMeqixcv0w">
-        <bpmn2:timeDuration xsi:type="bpmn2:tFormalExpression" id="_Wwt-sNcxEemXOMeqixcv0w">PT60M</bpmn2:timeDuration>
+      <bpmn2:timerEventDefinition id="_wxDTytcxEemXOMeqixcv0w">
+        <bpmn2:timeDuration xsi:type="bpmn2:tFormalExpression" id="_wxDTy9cxEemXOMeqixcv0w">PT60M</bpmn2:timeDuration>
       </bpmn2:timerEventDefinition>
     </bpmn2:boundaryEvent>
   </bpmn2:process>
-  <bpmndi:BPMNDiagram id="_Wwt-sdcxEemXOMeqixcv0w">
-    <bpmndi:BPMNPlane id="_Wwt-stcxEemXOMeqixcv0w" bpmnElement="PHM-Cases.A490.0">
+  <bpmndi:BPMNDiagram id="_wxDTzNcxEemXOMeqixcv0w">
+    <bpmndi:BPMNPlane id="_wxDTzdcxEemXOMeqixcv0w" bpmnElement="PHM-Cases.A490.0">
       <bpmndi:BPMNShape id="shape__2B1F30F1-359E-4C86-A3DB-7F76A5252697" bpmnElement="_2B1F30F1-359E-4C86-A3DB-7F76A5252697">
         <dc:Bounds height="102.0" width="154.0" x="445.0" y="77.0"/>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="shape__C0B08CE6-6D97-4E43-A4BA-450D590C88EE" bpmnElement="_C0B08CE6-6D97-4E43-A4BA-450D590C88EE">
-        <dc:Bounds height="56.0" width="56.0" x="100.0" y="100.0"/>
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="shape__B1167A7D-EBAD-4B99-A411-72316ACDD393" bpmnElement="_B1167A7D-EBAD-4B99-A411-72316ACDD393">
         <dc:Bounds height="102.0" width="154.0" x="219.0" y="77.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape__C0B08CE6-6D97-4E43-A4BA-450D590C88EE" bpmnElement="_C0B08CE6-6D97-4E43-A4BA-450D590C88EE">
+        <dc:Bounds height="56.0" width="56.0" x="100.0" y="100.0"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="shape__B12665EC-3CF2-4A25-90D8-28DBE37A04B0" bpmnElement="_B12665EC-3CF2-4A25-90D8-28DBE37A04B0">
         <dc:Bounds height="56.0" width="56.0" x="623.0" y="120.399994"/>
@@ -596,12 +601,12 @@ kcontext.setVariable("sTest","this is a test");
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
-  <bpmn2:relationship id="_Wwt-s9cxEemXOMeqixcv0w" type="BPSimData">
+  <bpmn2:relationship id="_wxDTztcxEemXOMeqixcv0w" type="BPSimData">
     <bpmn2:extensionElements>
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
           <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters"/>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_2B1F30F1-359E-4C86-A3DB-7F76A5252697" id="_Wwt-tNcxEemXOMeqixcv0w">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_2B1F30F1-359E-4C86-A3DB-7F76A5252697" id="_wxDTz9cxEemXOMeqixcv0w">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -621,14 +626,7 @@ kcontext.setVariable("sTest","this is a test");
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_C0B08CE6-6D97-4E43-A4BA-450D590C88EE" id="_Wwt-tdcxEemXOMeqixcv0w">
-            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
-              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
-                <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
-              </bpsim:ProcessingTime>
-            </bpsim:TimeParameters>
-          </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_B1167A7D-EBAD-4B99-A411-72316ACDD393" id="_Wwt-ttcxEemXOMeqixcv0w">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_B1167A7D-EBAD-4B99-A411-72316ACDD393" id="_wxDT0NcxEemXOMeqixcv0w">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -648,7 +646,14 @@ kcontext.setVariable("sTest","this is a test");
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_32B7B893-9456-4563-94BB-A27F93B19AD3" id="_Wwt-t9cxEemXOMeqixcv0w">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_C0B08CE6-6D97-4E43-A4BA-450D590C88EE" id="_wxDT0dcxEemXOMeqixcv0w">
+            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
+              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
+                <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
+              </bpsim:ProcessingTime>
+            </bpsim:TimeParameters>
+          </bpsim:ElementParameters>
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_32B7B893-9456-4563-94BB-A27F93B19AD3" id="_wxDT0tcxEemXOMeqixcv0w">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -668,7 +673,7 @@ kcontext.setVariable("sTest","this is a test");
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158" id="_Wwt-uNcxEemXOMeqixcv0w">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_2B5A1B73-C4DA-4837-BBA7-96BC4B25E158" id="_wxDT09cxEemXOMeqixcv0w">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -688,7 +693,7 @@ kcontext.setVariable("sTest","this is a test");
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_0B60C4B4-8630-4ACE-9106-50930C9E17E8" id="_Wwt-udcxEemXOMeqixcv0w">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_0B60C4B4-8630-4ACE-9106-50930C9E17E8" id="_wxDT1NcxEemXOMeqixcv0w">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -708,7 +713,7 @@ kcontext.setVariable("sTest","this is a test");
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_1A2301A9-98AB-474B-85E1-09D6A354D929" id="_Wwt-utcxEemXOMeqixcv0w">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_1A2301A9-98AB-474B-85E1-09D6A354D929" id="_wxDT1dcxEemXOMeqixcv0w">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -731,7 +736,7 @@ kcontext.setVariable("sTest","this is a test");
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_Wwt-QNcxEemXOMeqixcv0w</bpmn2:source>
-    <bpmn2:target>_Wwt-QNcxEemXOMeqixcv0w</bpmn2:target>
+    <bpmn2:source>_wxCskNcxEemXOMeqixcv0w</bpmn2:source>
+    <bpmn2:target>_wxCskNcxEemXOMeqixcv0w</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
