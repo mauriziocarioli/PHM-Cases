@@ -13,7 +13,6 @@
   <bpmn2:itemDefinition id="_caseFile_cB143SupplementalDataItem" structureRef="com.jbpm.document.Document"/>
   <bpmn2:itemDefinition id="_caseFile_cB143AnswerItem" structureRef="String"/>
   <bpmn2:itemDefinition id="_caseFile_cB143NATextItem" structureRef="String"/>
-  <bpmn2:itemDefinition id="__FC0D32A0-05E6-4766-9AD9-74CA4589B725_ConditionInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__E844374B-9F8B-4661-A6B6-FA20553B386D_SkippableInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__E844374B-9F8B-4661-A6B6-FA20553B386D_PriorityInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__E844374B-9F8B-4661-A6B6-FA20553B386D_CommentInputXItem" structureRef="Object"/>
@@ -314,39 +313,7 @@
         </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_AFA56F27-E47B-444F-9086-2013C6E6D69E</bpmn2:incoming>
-    </bpmn2:scriptTask>
-    <bpmn2:task id="_FC0D32A0-05E6-4766-9AD9-74CA4589B725" drools:taskName="Service Task" name="---Milestone 1--- A490.0 Hard Close">
-      <bpmn2:extensionElements>
-        <drools:metaData name="elementname">
-          <drools:metaValue><![CDATA[---Milestone 1--- A490.0 Hard Close]]></drools:metaValue>
-        </drools:metaData>
-        <drools:metaData name="customAutoStart">
-          <drools:metaValue><![CDATA[true]]></drools:metaValue>
-        </drools:metaData>
-      </bpmn2:extensionElements>
-      <bpmn2:ioSpecification id="_dxG-L9f9Eem01otrHHikzA">
-        <bpmn2:dataInput id="_FC0D32A0-05E6-4766-9AD9-74CA4589B725_ConditionInputX" drools:dtype="String" itemSubjectRef="__FC0D32A0-05E6-4766-9AD9-74CA4589B725_ConditionInputXItem" name="Condition"/>
-        <bpmn2:dataInput id="_FC0D32A0-05E6-4766-9AD9-74CA4589B725_TaskNameInputX" drools:dtype="Object" name="TaskName"/>
-        <bpmn2:inputSet id="_dxG-MNf9Eem01otrHHikzA">
-          <bpmn2:dataInputRefs>_FC0D32A0-05E6-4766-9AD9-74CA4589B725_ConditionInputX</bpmn2:dataInputRefs>
-          <bpmn2:dataInputRefs>_FC0D32A0-05E6-4766-9AD9-74CA4589B725_TaskNameInputX</bpmn2:dataInputRefs>
-        </bpmn2:inputSet>
-      </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_dxG-Mdf9Eem01otrHHikzA">
-        <bpmn2:targetRef>_FC0D32A0-05E6-4766-9AD9-74CA4589B725_ConditionInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_dxG-Mtf9Eem01otrHHikzA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_dxG-M9f9Eem01otrHHikzA"><![CDATA[org.kie.api.runtime.process.CaseData(data.get("A490Answer") != null)]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_dxG-NNf9Eem01otrHHikzA">_FC0D32A0-05E6-4766-9AD9-74CA4589B725_ConditionInputX</bpmn2:to>
-        </bpmn2:assignment>
-      </bpmn2:dataInputAssociation>
-      <bpmn2:dataInputAssociation id="_dxG-Ndf9Eem01otrHHikzA">
-        <bpmn2:targetRef>_FC0D32A0-05E6-4766-9AD9-74CA4589B725_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_dxG-Ntf9Eem01otrHHikzA">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_dxG-N9f9Eem01otrHHikzA"><![CDATA[Milestone]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_dxG-ONf9Eem01otrHHikzA">_FC0D32A0-05E6-4766-9AD9-74CA4589B725_TaskNameInputX</bpmn2:to>
-        </bpmn2:assignment>
-      </bpmn2:dataInputAssociation>
-    </bpmn2:task>
+    </bpmn2:scriptTask>    
     <bpmn2:boundaryEvent id="_4F2EEDC2-EEE3-4303-B495-D8AE417C0557" drools:boundaryca="true" drools:dockerinfo="-28.0^70.0|" attachedToRef="_953F61FF-98E6-4552-BDAA-ACA80D473CAE">
       <bpmn2:outgoing>_9CE8B104-8192-4DEB-B4C2-C621B88C0199</bpmn2:outgoing>
       <bpmn2:timerEventDefinition id="_dxG-Odf9Eem01otrHHikzA">
@@ -357,11 +324,6 @@
       <bpmn2:outgoing>_870AEF82-D485-4F18-B00F-F76BDE510129</bpmn2:outgoing>
       <bpmn2:timerEventDefinition id="_dxG-O9f9Eem01otrHHikzA">
         <bpmn2:timeDuration xsi:type="bpmn2:tFormalExpression" id="_dxG-PNf9Eem01otrHHikzA">PT30M</bpmn2:timeDuration>
-      </bpmn2:timerEventDefinition>
-    </bpmn2:boundaryEvent>
-    <bpmn2:boundaryEvent id="_4AF737BD-8317-472C-8892-955BA7AC5068" drools:boundaryca="true" drools:dockerinfo="-28.0^70.0|" attachedToRef="_FC0D32A0-05E6-4766-9AD9-74CA4589B725">
-      <bpmn2:timerEventDefinition id="_dxG-Pdf9Eem01otrHHikzA">
-        <bpmn2:timeDuration xsi:type="bpmn2:tFormalExpression" id="_dxG-Ptf9Eem01otrHHikzA">PT60M</bpmn2:timeDuration>
       </bpmn2:timerEventDefinition>
     </bpmn2:boundaryEvent>
     <bpmn2:boundaryEvent id="_CCC4E999-5225-4244-816A-493B45D857BD" drools:boundaryca="false" drools:dockerinfo="-28.0^67.0|" attachedToRef="_E844374B-9F8B-4661-A6B6-FA20553B386D" cancelActivity="false">
@@ -375,9 +337,6 @@
     <bpmndi:BPMNPlane id="_dxHlMdf9Eem01otrHHikzA" bpmnElement="PHM-Cases.R838">
       <bpmndi:BPMNShape id="shape__4F2EEDC2-EEE3-4303-B495-D8AE417C0557" bpmnElement="_4F2EEDC2-EEE3-4303-B495-D8AE417C0557">
         <dc:Bounds height="56.0" width="56.0" x="474.0" y="71.0"/>
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="shape__FC0D32A0-05E6-4766-9AD9-74CA4589B725" bpmnElement="_FC0D32A0-05E6-4766-9AD9-74CA4589B725">
-        <dc:Bounds height="102.0" width="154.0" x="530.0" y="146.0"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="shape__5B2A093C-A9FD-4536-AA29-0A5AABFFC134" bpmnElement="_5B2A093C-A9FD-4536-AA29-0A5AABFFC134">
         <dc:Bounds height="56.0" width="56.0" x="105.0" y="68.0"/>
@@ -432,26 +391,6 @@
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
           <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters"/>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_FC0D32A0-05E6-4766-9AD9-74CA4589B725" id="_dxHlM9f9Eem01otrHHikzA">
-            <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
-              <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
-                <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
-              </bpsim:ProcessingTime>
-            </bpsim:TimeParameters>
-            <bpsim:ResourceParameters xsi:type="bpsim:ResourceParameters">
-              <bpsim:Availability xsi:type="bpsim:Parameter">
-                <bpsim:FloatingParameter value="0.0"/>
-              </bpsim:Availability>
-              <bpsim:Quantity xsi:type="bpsim:Parameter">
-                <bpsim:FloatingParameter value="0.0"/>
-              </bpsim:Quantity>
-            </bpsim:ResourceParameters>
-            <bpsim:CostParameters xsi:type="bpsim:CostParameters">
-              <bpsim:UnitCost xsi:type="bpsim:Parameter">
-                <bpsim:FloatingParameter value="0.0"/>
-              </bpsim:UnitCost>
-            </bpsim:CostParameters>
-          </bpsim:ElementParameters>
           <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_2CA63A49-3845-48F4-AC77-4E1D1AF260DD" id="_dxHlNNf9Eem01otrHHikzA">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
