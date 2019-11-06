@@ -19,14 +19,6 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>redhat-fuse-plugin-repository</id>
-        <url>file:///Users/mcarioli/Development/redhat-fuse-7.0.1.CR5-maven-repository/maven-repository</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>redhat-ga-repository</id>
         <url>http://maven.repository.redhat.com/ga/</url>
         <source>SETTINGS</source>
@@ -75,24 +67,8 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>redhat-fuse-repository</id>
-        <url>file:///Users/mcarioli/Development/redhat-fuse-7.0.1.CR5-maven-repository/maven-repository</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>jboss-developer-repository</id>
         <url>http://jboss-developer.github.io/temp-maven-repo/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>ba-plugin-repository</id>
-        <url>file:///Users/mcarioli/Development/jboss-rhba-7.1.1.GA-maven-repository/maven-repository</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -134,14 +110,6 @@
         <id>local</id>
         <url>/Users/mcarioli/.m2/repository</url>
         <source>LOCAL</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>ba-repository</id>
-        <url>file:///Users/mcarioli/Dependencies/jboss-rhba-7.3.1.GA-maven-repository/maven-repository</url>
-        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
