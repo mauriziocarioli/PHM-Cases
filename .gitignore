@@ -2,11 +2,10 @@
 ################################
 .*
 !/.gitignore
-!/.idea
 !/.settings
-!/.vscode
 !/.classpath
 !/.project
+!/.caseproject
 
 
 # Compiled source #
@@ -46,6 +45,5 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-
 *~
 *.~lock*
