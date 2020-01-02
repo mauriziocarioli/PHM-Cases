@@ -2,9 +2,7 @@
 ################################
 .*
 !/.gitignore
-!/.settings
-!/.classpath
-!/.project
+!/.gitattribute
 !/.caseproject
 
 
@@ -38,6 +36,7 @@
 
 # generated files #
 ######################
+*.iml
 .DS_Store
 .DS_Store?
 ._*

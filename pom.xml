@@ -8,10 +8,17 @@
   <packaging>kjar</packaging>
   <name>PHM-Cases</name>
   <description>Population Health Management</description>
+  <url>https://maucarba.blogspot.com/2019/12/process-management-or-case-management.html</url>
   <properties>
     <version.org.kie>7.30.0.Final</version.org.kie>
   </properties>
   <dependencies>
+    <dependency>
+      <groupId>com.health-insurance</groupId>
+      <artifactId>PHM-Model</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-core</artifactId>
